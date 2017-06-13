@@ -1,0 +1,24 @@
+[
+ {
+ "picto": "publicationIcon",
+ "title": "Publication",
+ "value": 0
+ },
+ {
+ "picto": "videoIcon",
+ "title": "Vidéo",
+ "value": 0
+ },
+ {
+ "picto": "visiteIcon",
+ "title": "Visite",
+ "value": 0
+ },
+ {
+ "picto": "coursBIcon",
+ "title": "Cours B.",
+ "value": 0
+ }
+ ]
+ 
+

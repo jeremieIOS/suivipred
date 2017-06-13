@@ -1,0 +1,22 @@
+PODS:
+  - CDAlertView (0.4.0)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - JTAppleCalendar (6.0.0)
+
+DEPENDENCIES:
+  - CDAlertView
+  - Crashlytics
+  - Fabric
+  - JTAppleCalendar (= 6.0)
+
+SPEC CHECKSUMS:
+  CDAlertView: 0a664b2d5f764080367b8e6c30657e44b254ad7a
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  JTAppleCalendar: 374d7d6309b4c40a41be4167fe4cc3b935831da1
+
+PODFILE CHECKSUM: 0db0ae63099a01b3caa62eaf0e9671e235d0ccab
+
+COCOAPODS: 1.2.0

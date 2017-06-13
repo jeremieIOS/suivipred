@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69E849CE469D9CC7273C11D9 /* Pods_SuiviPred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36CEA3F80B05A6172158CEE /* Pods_SuiviPred.framework */; };
+		EF00B9FA1EE921BF00F86FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF00B9F91EE921BF00F86FEE /* Assets.xcassets */; };
+		EF5F88531EEEAB8B004E0670 /* TransversesFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5F88521EEEAB8B004E0670 /* TransversesFunctions.swift */; };
+		EF9C78B91EE49158000355BF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9C78B81EE49158000355BF /* GradientView.swift */; };
+		EFACCE0C1EEFBA0A00280FA2 /* RapportLineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACCE0B1EEFBA0A00280FA2 /* RapportLineCollectionViewCell.swift */; };
+		EFACCE0E1EEFBE4B00280FA2 /* RapportLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACCE0D1EEFBE4B00280FA2 /* RapportLineModel.swift */; };
+		EFACCE101EEFC02800280FA2 /* rapportLineModel.json in Resources */ = {isa = PBXBuildFile; fileRef = EFACCE0F1EEFC02800280FA2 /* rapportLineModel.json */; };
+		EFAE55251E93CC9000FC27CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE55241E93CC9000FC27CA /* AppDelegate.swift */; };
+		EFAE55271E93CC9000FC27CA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE55261E93CC9000FC27CA /* HomeController.swift */; };
+		EFAE552A1E93CC9000FC27CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAE55281E93CC9000FC27CA /* Main.storyboard */; };
+		EFAE552D1E93CC9000FC27CA /* SuiviPred.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFAE552B1E93CC9000FC27CA /* SuiviPred.xcdatamodeld */; };
+		EFAE55321E93CC9000FC27CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAE55301E93CC9000FC27CA /* LaunchScreen.storyboard */; };
+		EFAE553A1E93CCC600FC27CA /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE55391E93CCC600FC27CA /* NewEntryViewController.swift */; };
+		EFAE553C1E93DB1500FC27CA /* ReportMonthlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE553B1E93DB1500FC27CA /* ReportMonthlyCollectionViewCell.swift */; };
+		EFAE553E1E93E2EF00FC27CA /* monthlyReportModel.json in Resources */ = {isa = PBXBuildFile; fileRef = EFAE553D1E93E2EF00FC27CA /* monthlyReportModel.json */; };
+		EFAF7AB01E98E98A008FCB0C /* MonthlyReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF7AAF1E98E98A008FCB0C /* MonthlyReportModel.swift */; };
+		EFAF7AB71E9D1138008FCB0C /* Rapport+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF7AB51E9D1138008FCB0C /* Rapport+CoreDataClass.swift */; };
+		EFAF7AB81E9D1138008FCB0C /* Rapport+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF7AB61E9D1138008FCB0C /* Rapport+CoreDataProperties.swift */; };
+		EFAF7ABB1E9D1434008FCB0C /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF7ABA1E9D1434008FCB0C /* Database.swift */; };
+		EFC476C61ED46673003EB0A8 /* AnimationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC476BF1ED46673003EB0A8 /* AnimationClass.swift */; };
+		EFC476C71ED46673003EB0A8 /* CalendarPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC476C01ED46673003EB0A8 /* CalendarPopUp.swift */; };
+		EFC476C81ED46673003EB0A8 /* CalendarPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC476C11ED46673003EB0A8 /* CalendarPopUp.xib */; };
+		EFC476C91ED46673003EB0A8 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC476C21ED46673003EB0A8 /* CellView.swift */; };
+		EFC476CA1ED46673003EB0A8 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC476C31ED46673003EB0A8 /* CellView.xib */; };
+		EFC476CB1ED46673003EB0A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC476C41ED46673003EB0A8 /* Extensions.swift */; };
+		EFC476CC1ED46673003EB0A8 /* PopupContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC476C51ED46673003EB0A8 /* PopupContainer.swift */; };
+		EFEAF2F81EE99E85007FFC9D /* Objectif+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAF2F61EE99E85007FFC9D /* Objectif+CoreDataClass.swift */; };
+		EFEAF2F91EE99E85007FFC9D /* Objectif+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAF2F71EE99E85007FFC9D /* Objectif+CoreDataProperties.swift */; };
+		EFF3B5D11EA1067A002243D8 /* RapportLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3B5D01EA1067A002243D8 /* RapportLineTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B82A1C3C389217A5F590FA68 /* Pods-SuiviPred.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuiviPred.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuiviPred/Pods-SuiviPred.debug.xcconfig"; sourceTree = "<group>"; };
+		D36CEA3F80B05A6172158CEE /* Pods_SuiviPred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuiviPred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC87449074123CF33CBB5FD /* Pods-SuiviPred.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuiviPred.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuiviPred/Pods-SuiviPred.release.xcconfig"; sourceTree = "<group>"; };
+		EF00B9F91EE921BF00F86FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5F88521EEEAB8B004E0670 /* TransversesFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransversesFunctions.swift; sourceTree = "<group>"; };
+		EF9C78B81EE49158000355BF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		EFACCE0B1EEFBA0A00280FA2 /* RapportLineCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RapportLineCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFACCE0D1EEFBE4B00280FA2 /* RapportLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RapportLineModel.swift; sourceTree = "<group>"; };
+		EFACCE0F1EEFC02800280FA2 /* rapportLineModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rapportLineModel.json; sourceTree = "<group>"; };
+		EFAE55211E93CC9000FC27CA /* SuiviPred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuiviPred.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE55241E93CC9000FC27CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAE55261E93CC9000FC27CA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		EFAE55291E93CC9000FC27CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAE552C1E93CC9000FC27CA /* SuiviPred.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuiviPred.xcdatamodel; sourceTree = "<group>"; };
+		EFAE55311E93CC9000FC27CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAE55331E93CC9000FC27CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAE55391E93CCC600FC27CA /* NewEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		EFAE553B1E93DB1500FC27CA /* ReportMonthlyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportMonthlyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFAE553D1E93E2EF00FC27CA /* monthlyReportModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monthlyReportModel.json; sourceTree = "<group>"; };
+		EFAF7AAF1E98E98A008FCB0C /* MonthlyReportModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyReportModel.swift; sourceTree = "<group>"; };
+		EFAF7AB51E9D1138008FCB0C /* Rapport+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rapport+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFAF7AB61E9D1138008FCB0C /* Rapport+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rapport+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFAF7ABA1E9D1434008FCB0C /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		EFC476BF1ED46673003EB0A8 /* AnimationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationClass.swift; sourceTree = "<group>"; };
+		EFC476C01ED46673003EB0A8 /* CalendarPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPopUp.swift; sourceTree = "<group>"; };
+		EFC476C11ED46673003EB0A8 /* CalendarPopUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarPopUp.xib; sourceTree = "<group>"; };
+		EFC476C21ED46673003EB0A8 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		EFC476C31ED46673003EB0A8 /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		EFC476C41ED46673003EB0A8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EFC476C51ED46673003EB0A8 /* PopupContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupContainer.swift; sourceTree = "<group>"; };
+		EFEAF2F61EE99E85007FFC9D /* Objectif+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Objectif+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EFEAF2F71EE99E85007FFC9D /* Objectif+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Objectif+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFF3B5D01EA1067A002243D8 /* RapportLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RapportLineTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAE551E1E93CC9000FC27CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E849CE469D9CC7273C11D9 /* Pods_SuiviPred.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		883173269E68B3A3FF24DAB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D36CEA3F80B05A6172158CEE /* Pods_SuiviPred.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9C57918DAF16C1E76DBAAF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B82A1C3C389217A5F590FA68 /* Pods-SuiviPred.debug.xcconfig */,
+				EDC87449074123CF33CBB5FD /* Pods-SuiviPred.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF9C78B71EE490D6000355BF /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				EFC476C11ED46673003EB0A8 /* CalendarPopUp.xib */,
+				EFC476C31ED46673003EB0A8 /* CellView.xib */,
+				EFC476C41ED46673003EB0A8 /* Extensions.swift */,
+				EFC476BF1ED46673003EB0A8 /* AnimationClass.swift */,
+				EFC476C01ED46673003EB0A8 /* CalendarPopUp.swift */,
+				EFC476C21ED46673003EB0A8 /* CellView.swift */,
+				EFC476C51ED46673003EB0A8 /* PopupContainer.swift */,
+			);
+			name = calendar;
+			sourceTree = "<group>";
+		};
+		EFAE55181E93CC9000FC27CA = {
+			isa = PBXGroup;
+			children = (
+				EFAE55231E93CC9000FC27CA /* SuiviPred */,
+				EFAE55221E93CC9000FC27CA /* Products */,
+				B9C57918DAF16C1E76DBAAF1 /* Pods */,
+				883173269E68B3A3FF24DAB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAE55221E93CC9000FC27CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE55211E93CC9000FC27CA /* SuiviPred.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAE55231E93CC9000FC27CA /* SuiviPred */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE553D1E93E2EF00FC27CA /* monthlyReportModel.json */,
+				EFACCE0F1EEFC02800280FA2 /* rapportLineModel.json */,
+				EFAE55331E93CC9000FC27CA /* Info.plist */,
+				EFAE55261E93CC9000FC27CA /* HomeController.swift */,
+				EFAE55391E93CCC600FC27CA /* NewEntryViewController.swift */,
+				EF5F88521EEEAB8B004E0670 /* TransversesFunctions.swift */,
+				EFAE55241E93CC9000FC27CA /* AppDelegate.swift */,
+				EFAF7ABA1E9D1434008FCB0C /* Database.swift */,
+				EFAF7AAF1E98E98A008FCB0C /* MonthlyReportModel.swift */,
+				EFACCE0D1EEFBE4B00280FA2 /* RapportLineModel.swift */,
+				EFF3B5D01EA1067A002243D8 /* RapportLineTableViewCell.swift */,
+				EFAE553B1E93DB1500FC27CA /* ReportMonthlyCollectionViewCell.swift */,
+				EFACCE0B1EEFBA0A00280FA2 /* RapportLineCollectionViewCell.swift */,
+				EF9C78B81EE49158000355BF /* GradientView.swift */,
+				EF00B9F91EE921BF00F86FEE /* Assets.xcassets */,
+				EF9C78B71EE490D6000355BF /* calendar */,
+				EFAF7AB91E9D13FB008FCB0C /* Database */,
+				EFAE55301E93CC9000FC27CA /* LaunchScreen.storyboard */,
+				EFAE55281E93CC9000FC27CA /* Main.storyboard */,
+				EFAE552B1E93CC9000FC27CA /* SuiviPred.xcdatamodeld */,
+			);
+			path = SuiviPred;
+			sourceTree = "<group>";
+		};
+		EFAF7AB91E9D13FB008FCB0C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				EFEAF2F61EE99E85007FFC9D /* Objectif+CoreDataClass.swift */,
+				EFEAF2F71EE99E85007FFC9D /* Objectif+CoreDataProperties.swift */,
+				EFAF7AB51E9D1138008FCB0C /* Rapport+CoreDataClass.swift */,
+				EFAF7AB61E9D1138008FCB0C /* Rapport+CoreDataProperties.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAE55201E93CC9000FC27CA /* SuiviPred */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAE55361E93CC9000FC27CA /* Build configuration list for PBXNativeTarget "SuiviPred" */;
+			buildPhases = (
+				B9262CCD533DFC903A88FC5C /* [CP] Check Pods Manifest.lock */,
+				EFAE551D1E93CC9000FC27CA /* Sources */,
+				EFAE551E1E93CC9000FC27CA /* Frameworks */,
+				EFAE551F1E93CC9000FC27CA /* Resources */,
+				1FFA55AA4721CF3C7D7992E2 /* [CP] Embed Pods Frameworks */,
+				828BCACB6B116005DFE04251 /* [CP] Copy Pods Resources */,
+				EF862A3D1EEE97DF00DAD2F1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuiviPred;
+			productName = SuiviPred;
+			productReference = EFAE55211E93CC9000FC27CA /* SuiviPred.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAE55191E93CC9000FC27CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jeremie Chaine";
+				TargetAttributes = {
+					EFAE55201E93CC9000FC27CA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3S8U9D9E7Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFAE551C1E93CC9000FC27CA /* Build configuration list for PBXProject "SuiviPred" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAE55181E93CC9000FC27CA;
+			productRefGroup = EFAE55221E93CC9000FC27CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAE55201E93CC9000FC27CA /* SuiviPred */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAE551F1E93CC9000FC27CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE55321E93CC9000FC27CA /* LaunchScreen.storyboard in Resources */,
+				EFACCE101EEFC02800280FA2 /* rapportLineModel.json in Resources */,
+				EFAE552A1E93CC9000FC27CA /* Main.storyboard in Resources */,
+				EFC476C81ED46673003EB0A8 /* CalendarPopUp.xib in Resources */,
+				EFC476CA1ED46673003EB0A8 /* CellView.xib in Resources */,
+				EF00B9FA1EE921BF00F86FEE /* Assets.xcassets in Resources */,
+				EFAE553E1E93E2EF00FC27CA /* monthlyReportModel.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FFA55AA4721CF3C7D7992E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuiviPred/Pods-SuiviPred-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		828BCACB6B116005DFE04251 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuiviPred/Pods-SuiviPred-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9262CCD533DFC903A88FC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF862A3D1EEE97DF00DAD2F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 9d03d9115edcf26475250092dd4bbbb947eb25b3 c19a23700d4b42651aa9301030230c2630c31c6fa0d6fac9e33ddb31c993c765";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAE551D1E93CC9000FC27CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE552D1E93CC9000FC27CA /* SuiviPred.xcdatamodeld in Sources */,
+				EFEAF2F81EE99E85007FFC9D /* Objectif+CoreDataClass.swift in Sources */,
+				EFAE55271E93CC9000FC27CA /* HomeController.swift in Sources */,
+				EFC476C61ED46673003EB0A8 /* AnimationClass.swift in Sources */,
+				EFAE553A1E93CCC600FC27CA /* NewEntryViewController.swift in Sources */,
+				EFACCE0C1EEFBA0A00280FA2 /* RapportLineCollectionViewCell.swift in Sources */,
+				EFC476C71ED46673003EB0A8 /* CalendarPopUp.swift in Sources */,
+				EFAE55251E93CC9000FC27CA /* AppDelegate.swift in Sources */,
+				EF9C78B91EE49158000355BF /* GradientView.swift in Sources */,
+				EFACCE0E1EEFBE4B00280FA2 /* RapportLineModel.swift in Sources */,
+				EFEAF2F91EE99E85007FFC9D /* Objectif+CoreDataProperties.swift in Sources */,
+				EFAF7ABB1E9D1434008FCB0C /* Database.swift in Sources */,
+				EFAF7AB81E9D1138008FCB0C /* Rapport+CoreDataProperties.swift in Sources */,
+				EFF3B5D11EA1067A002243D8 /* RapportLineTableViewCell.swift in Sources */,
+				EFC476C91ED46673003EB0A8 /* CellView.swift in Sources */,
+				EFAF7AB71E9D1138008FCB0C /* Rapport+CoreDataClass.swift in Sources */,
+				EFAE553C1E93DB1500FC27CA /* ReportMonthlyCollectionViewCell.swift in Sources */,
+				EFAF7AB01E98E98A008FCB0C /* MonthlyReportModel.swift in Sources */,
+				EFC476CC1ED46673003EB0A8 /* PopupContainer.swift in Sources */,
+				EFC476CB1ED46673003EB0A8 /* Extensions.swift in Sources */,
+				EF5F88531EEEAB8B004E0670 /* TransversesFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFAE55281E93CC9000FC27CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE55291E93CC9000FC27CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAE55301E93CC9000FC27CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE55311E93CC9000FC27CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAE55341E93CC9000FC27CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFAE55351E93CC9000FC27CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAE55371E93CC9000FC27CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82A1C3C389217A5F590FA68 /* Pods-SuiviPred.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S8U9D9E7Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SuiviPred/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremiechaine.SuiviPred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFAE55381E93CC9000FC27CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC87449074123CF33CBB5FD /* Pods-SuiviPred.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S8U9D9E7Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SuiviPred/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremiechaine.SuiviPred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAE551C1E93CC9000FC27CA /* Build configuration list for PBXProject "SuiviPred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE55341E93CC9000FC27CA /* Debug */,
+				EFAE55351E93CC9000FC27CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAE55361E93CC9000FC27CA /* Build configuration list for PBXNativeTarget "SuiviPred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE55371E93CC9000FC27CA /* Debug */,
+				EFAE55381E93CC9000FC27CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFAE552B1E93CC9000FC27CA /* SuiviPred.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFAE552C1E93CC9000FC27CA /* SuiviPred.xcdatamodel */,
+			);
+			currentVersion = EFAE552C1E93CC9000FC27CA /* SuiviPred.xcdatamodel */;
+			path = SuiviPred.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFAE55191E93CC9000FC27CA /* Project object */;
+}
